@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>States</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="node_modules/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="Styles.css" rel="stylesheet">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color:rgba(236, 233, 233, 0.6)">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/india.svg" width="30px" alt="India Tourism">
+            India Tourism
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dashboard.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="destinations.html">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="states.html">States</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mice.html">MICE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="search"><i class="fa fa-search"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div>
+        <img src="images/spiritual.jpg" class="img-fluid" alt="India Tourism">
+    </div>
+    <div class="container-fluid">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active"><a href="states.html">States</a></li>
+        </ol>
+        <div class="table-responsive-md">
+            <table class="table table-bordered table-hover table-striped">
+                <thead class="thead-dark text-center">
+                    <tr>
+                        <th>#</th>
+                        <th>State</th>
+                        <th>Vehicle Code</th>
+                        <th>Zone</th>
+                        <th>Capital</th>
+                        <th>Largest City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td class="table-success">Andhra Pradesh</td>
+                        <td>AP</td>
+                        <td>Southern</td>
+                        <td>Amaravati</td>
+                        <td>Visakhapatnam</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td class="table-success">Arunachal Pradesh</td>
+                        <td>AR</td>
+                        <td>North-Eastern</td>
+                        <td>Itanagar</td>
+                        <td>Itanagar</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td class="table-success">Assam</td>
+                        <td>AS</td>
+                        <td>North-Eastern</td>
+                        <td>Dispur</td>
+                        <td>Guwahathi</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td class="table-success">Bihar</td>
+                        <td>BR</td>
+                        <td>Eastern</td>
+                        <td>Patna</td>
+                        <td>Patna</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td class="table-success">Chhattisgarh</td>
+                        <td>CG</td>
+                        <td>Central</td>
+                        <td>Atal Nagar</td>
+                        <td>Raipur</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td class="table-success">Gujarat</td>
+                        <td>GJ</td>
+                        <td>Western</td>
+                        <td>Gandhi Nagar</td>
+                        <td>Ahmedabad</td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td class="table-success">Haryana</td>
+                        <td>HR</td>
+                        <td>Northern</td>
+                        <td>Chandigarh</td>
+                        <td>Faridabad</td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td class="table-success">Himachal Pradesh</td>
+                        <td>HP</td>
+                        <td>Northern</td>
+                        <td>Shimla / Dharamshala</td>
+                        <td>Shimla</td>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <td class="table-success">Jammu and Kashmir</td>
+                        <td>JK</td>
+                        <td>Northern</td>
+                        <td>Srinagar / Jammu</td>
+                        <td>Srinagar</td>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <td class="table-success">Jharkhand <span class="badge badge-secondary">New</span></td>
+                        <td>JH</td>
+                        <td>Eastern</td>
+                        <td>Ranchi</td>
+                        <td>Jamshedpur</td>
+                    </tr>
+                    <tr>
+                        <th>11</th>
+                        <td class="table-success">Karnataka</td>
+                        <td>KA</td>
+                        <td>Southern</td>
+                        <td>Bangalore</td>
+                        <td>Bangalore</td>
+                    </tr>
+                    <tr>
+                        <th>12</th>
+                        <td class="table-success">Kerala</td>
+                        <td>KL</td>
+                        <td>Southern</td>
+                        <td>Thiruvananthapuram</td>
+                        <td>Thiruvananthapuram</td>
+                    </tr>
+                    <tr>
+                        <th>13</th>
+                        <td class="table-success">Madhya Pradesh</td>
+                        <td>MH</td>
+                        <td>Western</td>
+                        <td>Mumbai / Nagpur</td>
+                        <td>Mumbai</td>
+                    </tr>
+                    <tr>
+                        <th>14</th>
+                        <td class="table-success">Manipur</td>
+                        <td>MN</td>
+                        <td>North-Eastern</td>
+                        <td>Imphal</td>
+                        <td>Imphal</td>
+                    </tr>
+                    <tr>
+                        <th>15</th>
+                        <td class="table-success">Meghalaya</td>
+                        <td>ML</td>
+                        <td>North-Eastern</td>
+                        <td>Shillong</td>
+                        <td>Shillong</td>
+                    </tr>
+                    <tr>
+                        <th>16</th>
+                        <td class="table-success">Mizoram</td>
+                        <td>MZ</td>
+                        <td>North-Eastern</td>
+                        <td>Aizawl</td>
+                        <td>Aizawl</td>
+                    </tr>
+                    <tr>
+                        <th>17</th>
+                        <td class="table-success">Nagaland</td>
+                        <td>NL</td>
+                        <td>North-Eastern</td>
+                        <td>Kohima</td>
+                        <td>Dimapur</td>
+                    </tr>
+                    <tr>
+                        <th>18</th>
+                        <td class="table-success">Odisha</td>
+                        <td>OR</td>
+                        <td>Eastern</td>
+                        <td>Bhubaneswar</td>
+                        <td>Bhubaneswar</td>
+                    </tr>
+                    <tr>
+                        <th>19</th>
+                        <td class="table-success">Punjab</td>
+                        <td>PB</td>
+                        <td>Northern</td>
+                        <td>Chandigarh</td>
+                        <td>Ludhiana</td>
+                    </tr>
+                    <tr>
+                        <th>20</th>
+                        <td class="table-success">Rajasthan</td>
+                        <td>RJ</td>
+                        <td>Northern</td>
+                        <td>Jaipur</td>
+                        <td>Jaipur</td>
+                    </tr>
+                    <tr>
+                        <th>21</th>
+                        <td class="table-success">Sikkim</td>
+                        <td>SK</td>
+                        <td>North-Eastern</td>
+                        <td>Gangtok</td>
+                        <td>Gangtok</td>
+                    </tr>
+                    <tr>
+                        <th>22</th>
+                        <td class="table-success">Nagaland</td>
+                        <td>NL</td>
+                        <td>North-Eastern</td>
+                        <td>Kohima</td>
+                        <td>Dimapur</td>
+                    </tr>
+                    <tr>
+                        <th>23</th>
+                        <td class="table-success">Tamil Nadu</td>
+                        <td>TN</td>
+                        <td>Southern</td>
+                        <td>Chennai</td>
+                        <td>Chennai</td>
+                    </tr>
+                    <tr>
+                        <th>24</th>
+                        <td class="table-success">Telangana <span class="badge badge-secondary">New</span></td>
+                        <td>TS</td>
+                        <td>Southern</td>
+                        <td>Hyderabad</td>
+                        <td>Hyderabad</td>
+                    </tr>
+                    <tr>
+                        <th>25</th>
+                        <td class="table-success">Tripura</td>
+                        <td>TR</td>
+                        <td>North-Eastern</td>
+                        <td>Agartala</td>
+                        <td>Agartala</td>
+                    </tr>
+                    <tr>
+                        <th>26</th>
+                        <td class="table-success">Uttar Pradesh</td>
+                        <td>UP</td>
+                        <td>Central</td>
+                        <td>Lucknow</td>
+                        <td>Kanpur</td>
+                    </tr>
+                    <tr>
+                        <th>27</th>
+                        <td class="table-success">Uttarakhand <span class="badge badge-secondary">New</span></td>
+                        <td>UK</td>
+                        <td>Central</td>
+                        <td>Dehradun</td>
+                        <td>Dehradun</td>
+                    </tr>
+                    <tr>
+                        <th>28</th>
+                        <td class="table-success">West Bengal</td>
+                        <td>WB</td>
+                        <td>Eastern</td>
+                        <td>Kolkata</td>
+                        <td>Kolkata</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <ul class="pagination justify-content-end">
+            <li class="page-item"><a href="#" class="page-link">&laquo;</a></li>
+            <li class="page-item active"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">&raquo;</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

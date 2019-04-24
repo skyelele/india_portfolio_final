@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Destinations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="node_modules/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="Styles.css" rel="stylesheet">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color:rgba(236, 233, 233, 0.6)">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/india.svg" width="30px" alt="India Tourism">
+            India Tourism
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dashboard.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="destinations.html">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="states.html">States</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mice.html">MICE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="search"><i class="fa fa-search"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div>
+        <img src="images/kashmir.jpg" class="img-fluid" alt="India Tourism">
+    </div>
+    <div class="container-fluid">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active"><a href="destinations.html">Destinations</a></li>
+        </ol>
+        <div class="list-group">
+            <div class="list-group-item d-flex justify-content-between align-items-center bg-secondary text-white">
+                Popular Destinations
+                <span class="badge badge-light badge-pill">96</span>
+            </div>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Delhi</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Delhi, the capital of India and one of the oldest cities of the world, is unlike
+                        any other city on the planet.</p>
+                    <small class="text-muted">Things to do</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Mumbai</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Mumbai is in all ways a mega-city driven by power, wealth, glamour and fame. It is
+                        also a city with strong historical links, wonderful British architecture, museums, beaches,
+                        places of worship, and above all, a true galaxy of stars where Bollywood reigns supreme.</p>
+                    <small class="text-muted">Haji Ali Mosque, Siddhivinayak Temple, Gateway of India and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Chennai</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Called the ‘Cultural Capital of India’ for its deep-rooted traditions and age-old
+                        heritage, Chennai also has a young heart. It has grown into a charming city within a span of
+                        just over 350 years. Gaining recognition when, in 1639, Francis Day and Andrew Cogan, agents of
+                        the English East India Company, acquired a strip of land, called Chennapatnam on lease from the
+                        Vijayanagar King. Fort St. George that serves as the Government Secretariat today, was built to
+                        set up a factory serving as a nucleus for British settlements.</p>
+                    <small class="text-muted">Kapaleswarar Temple, Santhome Cathedral Basilica, Semmozhi Poonga and
+                        more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Hyderabad</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Hyderabad is famous as the former seat of the fabulously wealthy Nizams of
+                        Hyderabad. Built on the banks of the river Musi, and surrounded by huge prehistoric rock
+                        formations like petrified, grey elephants, Hyderabad is a blend of the fairy tale and earthy, a
+                        potpourri of old and new. From banjara gypsies in swinging skirts and silver ornaments to
+                        black-veiled burqa - swathed women dressed in churidars or jeans, Hyderabad is an amalgamation
+                        of historic tradition and modernization at the same time.</p>
+                    <small class="text-muted">Falaknuma Palace, Charminar, Hussain Sagar Lake and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Kochi</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Kochi, also known as Cochin, is one of the most picturesque destinations on the
+                        southwest coast line of Kerala. An all-weather harbour and a grand seascape mark it as the
+                        “Queen of the Arabian Sea”. Cochin Port is a cruise port and has witnessed an encouraging
+                        growth with the arrival of luxury cruise liners to its shores.</p>
+                    <small class="text-muted">Dutch Palace, Fort Kochi, Paradesi Synagogue and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Agra</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Agra is an ancient city on the banks of the River Yamuna. It finds mention in the
+                        Mahabharata but gained importance as the capital of the Mughal Empire from 1556 - 1658. It is
+                        on the Golden Triangle tourist circuit with Delhi and Jaipur. It is famous for its Mughal
+                        architecture and for being home to one of the Seven Wonders of the World, the Taj Mahal - a
+                        monument of incredible elegance and architectural perfection.</p>
+                    <small class="text-muted">Tah Mahal, Fatehpur Sikri, Agra Fort and more...</small>
+                </a>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center bg-secondary text-white">
+                Spiritual Destinations
+                <span class="badge badge-light badge-pill">50</span>
+            </div>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Varanasi</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Lying in the south of Uttar Pradesh, on the banks of the holy River Ganga, breathes
+                        Varanasi, which is believed to be the the oldest living city in the world. For centuries, the
+                        mystic of this place has been attracting pilgrims from across India as well as abroad. A
+                        dwelling of ancient domes, muths, ashrams, priests, narrow lanes with shops filled with
+                        Benaresi sarees, Varanasi represents the colorful and fascinating India of your dreams.</p>
+                    <small class="text-muted">Bharat Mata Temple, Ghats of Varanasi, Kashi Vishwanath Temple and
+                        more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Tirupati</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Tirupati, the holy city is located in the southeastern part of Andhra Pradesh, in
+                        Chittoor district. Known as the abode of the 'Kaliyuga' deity Lord Venkateswara popularly known
+                        as Balaji, Tirupati is famous for the Venkateswara temple in the sacred Tirumala hills at an
+                        elevation of 860m. One of the most important pilgrimage centers in India, the temple draws
+                        millions of pilgrims and is believed to be the busiest pilgrimage centre in the world.</p>
+                    <small class="text-muted">Padmavati Temple, Govindaraja Swami Temple, Lord Venkateswara Temple and
+                        more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Haridwar</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Haridwar, the gateway to the Gods, is situated on the right bank of the holy Ganga
+                        and is regarded among the seven sacred cities of India. Haridwar is also, the gateway to the
+                        four major pilgrimages- the Char Dham - Kedarnath, Badrinath, Gangotri and Yamunotri. According
+                        to Hindu mythology, Haridwar is one of the four places where the drops of Amrita, the elixir of
+                        immortality, accidentally spilled over from the pitcher or Kumbha, in which it was being
+                        carried away by Garuda, the celestial bird and the vehicle of Lord Vishnu.</p>
+                    <small class="text-muted">Har-ki-Pauri, Chandi Devi Temple, Mansa devi Temple and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Rishikesh</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Rishikesh, the 'place of the sages' is a celebrated spiritual town located on the
+                        banks of the Ganga. Surrounded by Shivaik range of Himalayas on three sides, it holds a deep
+                        cultural and spiritual significance for its visitors. It is believed that when Raibhya Rishi
+                        undertook rigorous penance, God appeared in the form of "Hrishikesh" and henceforth this area
+                        came to be known as Rishikesh. It is the starting point for the Hindu Char Dham pilgrimage,
+                        including Yamunotri, Gangotri, Kedarnath and Badrinath, to seek spiritual salvation.</p>
+                    <small class="text-muted">Ram Jhoola, Lakshman Jhoola, Neelkanth Mahadev and more...</small>
+                </a>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center bg-secondary text-white">
+                Heritage Destinations
+                <span class="badge badge-light badge-pill">26</span>
+            </div>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Delhi</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Delhi, the capital of India and one of the oldest cities of the world, is unlike
+                        any other city on the planet.</p>
+                    <small class="text-muted">Red Fort, Qutub Minar, India Gate and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Agra</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Agra is an ancient city on the banks of the River Yamuna. It finds mention in the
+                        Mahabharata but gained importance as the capital of the Mughal Empire from 1556 - 1658. It is
+                        on the Golden Triangle tourist circuit with Delhi and Jaipur. It is famous for its Mughal
+                        architecture and for being home to one of the Seven Wonders of the World, the Taj Mahal - a
+                        monument of incredible elegance and architectural perfection.</p>
+                    <small class="text-muted">Tah Mahal, Fatehpur Sikri, Agra Fort and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Jaipur</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Founded in AD 1727 by Maharaja Sawai Jai Singh II, Jaipur, the capital of Rajasthan
+                        is popularly known as the Pink City. With broad avenues and spacious gardens, the city is
+                        steeped in history and culture. Here the past comes alive in magnificent forts and palaces,
+                        blushed pink, where once lived the maharajas. The bustling bazaars of Jaipur, famous for
+                        Rajasthan jewellery, fabric and shoes, possess a timeless quality and are a treasure-trove for
+                        the shoppers.</p>
+                    <small class="text-muted">City Palace, Hawa Mahal, Sunehri Kothi and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Jodhpur</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Located almost on the edge of the Thar Desert, the city of Jodhpur was founded in
+                        1459 by Rao Jodha, the chief of the Rathore clan of Rajputs and was the capital of the State of
+                        Marwar. The city is called the Blue City as it looks completely blue in colour from an aerial
+                        view because of its blue walls and blue houses. Majestic palaces and temples around the city
+                        add to the remarkable splendour of this city. In ancient times the city was trade centre for
+                        opium, copper, silk, sandals, dates and coffee.</p>
+                    <small class="text-muted">Nagaur, Ramdevra Temple, Mehrangarh Fort and more...</small>
+                </a>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center bg-secondary text-white">
+                Budhism Destinations
+                <span class="badge badge-light badge-pill">7</span>
+            </div>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Kapilvastu</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Kapilvastu was the ancient capital of the Shakya Clan, whose ruler ‘Shuddhodhan’
+                        was the father of the Buddha,Therefore Lord Buddha is also referred to as Shakyamuni. The
+                        Shakya domain was one of the sixteen ‘Mahajanpads’ of the 6th Century B.C. Prince Gautam, as
+                        Lord Buddha was then known, left his palace in Kapilvastu at the age of 29 and revisited it 12
+                        years later, after attaining the Enlightenment. Today, Kapilvastu comprises of the several
+                        villages, mainly Piprahwa, Ganvaria & Salagarh.</p>
+                    <small class="text-muted">Nageshwarnath Temple, Tulsi Smarak Bhawan, The Hanuman Garhi and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Itkhori</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Itkhori, a block headquarter within Chatra district. Itkhori lies north of
+                        Hazaribagh, about 16 kms west of Chouparan to be more precise. It is a wonderful place with
+                        abundance of historic reminiscences and archaeological remnants demonstrating a breath-taking
+                        saga of religious tolerance and cultural unity. More than 1200 years ago the great Pala and
+                        Gupta emperors looked out from the terrace of the magnificent Maa Bhadrakali temple complex
+                        built during 9th Century.</p>
+                    <small class="text-muted">Tagore Hill, Gonda Hills and Rock Garden, Ranchi Hill and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Rajgir</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">The city of Rajgir was the first seat of power in the ancient kingdom of Magadha –
+                        the state centre of the powerful Mauryan emperors. Historically, Rajgir was also considered one
+                        of the places favoured by spiritual leaders like Lord Mahavira and Gautam Buddha. Rajgir is a
+                        major hub for pilgrims of both the Jain and Buddhist faiths.</p>
+                    <small class="text-muted">Ajatshatru Fort, Jarasandh Ka Akhara, Shanti Stupa and more...</small>
+                </a>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center bg-secondary text-white">
+                Winter Destinations
+                <span class="badge badge-light badge-pill">14</span>
+            </div>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Sri Nagar</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Srinagar, the summer capital of Jammu and Kashmir is located in the heart of the
+                        Kashmir valley at an altitude of 1,730 m above sea level. Spread on both sides of the river
+                        Jhelum the city is famous for its natural beauty, gardens, waterfronts and houseboats. Srinagar
+                        is called the city of lakes and the Venice of the East, fascinating tourists from centuries
+                        with its beautiful picturesque Himalayan backdrop, glittering lakes that are surrounded by
+                        houseboats and Shikaras and the majesty of Mughal architecture.</p>
+                    <small class="text-muted">Dal Lake, Shalimar Bagh, Nagin Lake and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Shimla</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">One of the most stunning hill resorts, Shimla is one of the most popular hill
+                        stations in northern India. Situated at an altitude of 2,205 meters, it used to be the summer
+                        capital of British India with a well-planned architecture. The town is famous for pleasant
+                        walking experiences on hillsides surrounded by pine and oak forests. This capital city of
+                        Himachal Pradesh is famous for The Mall, ridge, and toy train. With colonial style buildings,
+                        the town has relics of ancient past that lend it a distinct look.</p>
+                    <small class="text-muted">Viceregal Lodge and Botanical Gardens, The Ridge, The Mall and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Manali</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Located at a height of 1,926 meters on the northern end of the Kullu Valley in the
+                        state of Himachal Pradesh, Manali has been holding a magical allure for tourists with its
+                        incredible landscape abundant greenery and exquisite scenery. Travel to Manali can evoke many
+                        images like fairy-tale snow-capped mountain vistas, flower-covered meadows, and glaciers,
+                        winding rivers, temples and Buddhist monasteries. Enjoying the snowfall on the mighty Rohtang
+                        Pass will be an unforgettable affair.</p>
+                    <small class="text-muted">Hadimba Temple, Rohtang Pass, Nako Gompa and more...</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Dalhousie</h5>
+                        <small class="text-muted">Things to do</small>
+                    </div>
+                    <p class="mb-1">Surrounded by beautiful snow-capped mountains in the district of Chamba at an
+                        elevation of 1854.mts, Dalhousie is situated at the Western end of the Dhauladhar range of
+                        mountains. Named after Lord Dalhousie, the British Viceroy in India, the hill town with its
+                        Victorian-style mansions, Scottish architecture and other charming colonial buildings will take
+                        you back in time.</p>
+                    <small class="text-muted">Kalatope, Daikund, Panjpulla and more...</small>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
